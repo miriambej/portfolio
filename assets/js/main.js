@@ -44,7 +44,7 @@ NOTE: This is main js file. All js plugin active & custom js included in this fi
     $(".menu-bar").on('click', function() {
         $('.mainmenu').toggleClass('menu-open');
     });
-    
+
     $(".mainmenu ul li").has('ul').addClass('parent');
 
 
@@ -218,8 +218,8 @@ NOTE: This is main js file. All js plugin active & custom js included in this fi
     12. particles
     ********************/
     $('.particle-bg').particleground({
-        dotColor: '#fff',
-        lineColor: '#fff'
+        dotColor: '#B5FCFF',
+        lineColor: '#B5FCFF'
     });
 
     /*******************
