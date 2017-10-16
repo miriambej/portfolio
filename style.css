@@ -90,7 +90,7 @@ Please do not change anything here! write in a custom.css file if required!
     background-image: url(assets/img/hero-area/9.jpg);
 }
 .hero-bg-10 {
-    background-image: url(assets/img/hero-area/main.jpeg);
+    background-image: url(assets/img/hero-area/main2.jpg);
 }
 .hero-bg-11 {
     background-image: url(assets/img/hero-area/11.jpg);
@@ -561,6 +561,7 @@ Please do not change anything here! write in a custom.css file if required!
 
 .slicknav_menu {
     display: none;
+    width: 105%;
 }
 /*************************
 03. hero wrapper
