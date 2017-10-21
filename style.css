@@ -453,7 +453,7 @@ Please do not change anything here! write in a custom.css file if required!
     z-index: 9999999;
 }
 .header-area.stick .logo a h2 span {
-    background-color: #222;
+    background-color: #207D81;
     color: #fff;
 }
 .header-area.stick .mainmenu ul li a,
@@ -1083,7 +1083,7 @@ Please do not change anything here! write in a custom.css file if required!
     transition: all 0.3s ease 0s;
 }
 .project-filter.style-2 li:after {
-    color: #222;
+    color: #207D81;
     content: "/";
     position: absolute;
     right: -15px;
@@ -1092,7 +1092,7 @@ Please do not change anything here! write in a custom.css file if required!
     content: "";
 }
 .project-filter li.active {
-    background-color: #454545;
+    background-color: #207D81;
     color: #fff;
 }
 /*************************
