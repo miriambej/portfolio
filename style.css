@@ -2125,7 +2125,7 @@ Please do not change anything here! write in a custom.css file if required!
 *************************/
 
 .scrollToTop {
-    background-color: #333;
+    background-color: #207D81;
     bottom: 20px;
     color: #fff;
     font-size: 20px;
@@ -2170,7 +2170,7 @@ Please do not change anything here! write in a custom.css file if required!
     margin: 0 5px;
 }
 .footer-social li a {
-    background-color: #454545;
+    background-color: #207D81;
     color: #fff;
     display: block;
     font-size: 18px;
