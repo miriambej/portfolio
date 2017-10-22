@@ -68,14 +68,30 @@ ul {
 .section-padding {
     padding: 100px 0;
 }
+.section-contact-padding {
+    padding: 0 0 230px 0;
+}
 .section-heading {
     margin-bottom: 70px;
+}
+.section-contact-heading {
+    margin-bottom: 150px;
 }
 .section-heading h2 {
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+.section-contact-heading h2 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
 .section-heading h2 span {
+    background-color: #207D81;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.section-contact-heading h2 span {
     background-color: #207D81;
     color: #fff;
     display: inline-block;
