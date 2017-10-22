@@ -1562,11 +1562,10 @@ Please do not change anything here! write in a custom.css file if required!
     border-left: 1px solid #eee;
     border-top: 1px solid #eee;
 }
-.service-style-1 .row,
-.service-style-3 .row {
+.service-style-1 .row {
     margin: 0;
 }
-.service-style-1 .col-md-4,
+.service-style-1 .col-md-2,
 .service-style-3 .col-md-6 {
     padding: 0;
 }
@@ -1577,8 +1576,8 @@ Please do not change anything here! write in a custom.css file if required!
     border-bottom: 1px solid #eee;
     border-right: 1px solid #eee;
 }
-.single-service-item i {
-    font-size: 60px;
+.single-service-item img {
+    height: 150px;
 }
 .single-service-item h4 {
     text-transform: uppercase;
@@ -1588,13 +1587,14 @@ Please do not change anything here! write in a custom.css file if required!
 .service-style-1 .single-service-item:hover {
     box-shadow: 0px 20px 50px #ddd;
 }
+
 /*************************
 07.2 Service style 2
 *************************/
 
 .single-service-item {
-    height: 310px;
-    padding: 20px 20px 0;
+    /*height: 310px;*/
+    padding: 20px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
@@ -1611,52 +1611,6 @@ Please do not change anything here! write in a custom.css file if required!
     background-color: #227d81;
     border-color: #454545;
     color: #fff;
-}
-/*************************
-07.3 Service style 3
-*************************/
-
-.service-bg {
-    background-size: cover;
-    height: 310px;
-    background-position: center;
-    background-color: #ddd;
-    position: relative;
-    z-index: 1;
-}
-.service-style-3 .single-service-item {
-    background-color: #ccc;
-    padding: 20px 15px 0px;
-    color: #000;
-}
-.service-bg:before {
-    background-color: #ccc;
-    content: "";
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    right: -20px;
-    top: 50%;
-    margin-top: -20px;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-.service-bg.right:before {
-    right: auto;
-    left: -20px;
-}
-.service-style-3 .col-md-6:hover .service-bg:before {
-    background-color: #333;
-}
-.service-style-3 .col-md-6:hover .single-service-item {
-    background-color: #333;
-    color: #fff;
-}
-.service-style-3 .col-md-6:hover .service-bg:after {
-    opacity: 0.2;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
 }
 /*************************
 08. Testimonial
