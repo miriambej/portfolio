@@ -1134,7 +1134,7 @@ Please do not change anything here! write in a custom.css file if required!
     z-index: 1;
 }
 .project-hover:after {
-    background-color: #222;
+    background-color: #207D81;
     content: "";
     height: 100%;
     left: 0;
